@@ -1,0 +1,15 @@
+:root{
+    --Fundo-Programacao: #D9F7E9;
+    --Destaque-Programacao: #57C278;
+}
+.time{
+    text-align: center;
+    padding: 32px;
+    background-color: var(--Fundo-Programacao);
+}
+.time h3{
+    font-size: 32px;
+    border-bottom: 4px solid var(--Destaque-Programacao);
+    display: inline-block;
+    padding-bottom: 8px;
+}
