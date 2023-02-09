@@ -6,6 +6,8 @@ const Time = (props) =>{
 
     const border = { borderColor: props.corPrimaria };
     return(
+        props.colaboradores.length > 0 
+        ?
         <section className="time" style={fundo}>
             <h3 style={border}>{props.nome}</h3>
             <div className="colaboradores">
@@ -13,6 +15,7 @@ const Time = (props) =>{
             </div>
 
         </section>
+        : ''
     )
 }
 export default Time
